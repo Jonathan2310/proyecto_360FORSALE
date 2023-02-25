@@ -1,0 +1,9 @@
+.wrapper_input{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    /* background: blanchedalmond; */
+    /* margin: 20px 0 0 0; */
+    /* border: 1px solid red; */
+}
