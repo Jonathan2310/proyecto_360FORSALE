@@ -4,6 +4,7 @@ import '../assets/styles/formRegister.css'
 
 function Register() {
     return ( 
+        //Contenedor del formulario
         <div className="contenedor_form">
             <FormRegister/>
         </div>
