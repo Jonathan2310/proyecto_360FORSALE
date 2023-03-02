@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
-//Nos permite usar html y css en el mismo bloque de codigo  //para utlizar styled
-const Caption = styled.h3`
-    font-family: 'Hepta Slab';
-    font-style: normal;
-    /* font-weight: 700; */
-    font-size: 1.2rem;
-    text-align: center;
-    color: #FFFFFF;
-`; 
+function Caption({msn}) {
+    return ( 
+        <StyledCaption>{msn}</StyledCaption>
+     );
+}
 
+const StyledCaption = styled.h2`
+    color: white;
+    margin-bottom: 2.5rem;
+    font-family: 'Hepta Slab';
+    font-size: 2rem;
+`
 
 export default Caption;

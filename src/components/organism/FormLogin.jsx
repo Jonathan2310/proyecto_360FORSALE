@@ -18,7 +18,7 @@ function FormLogin() {
                     <WrapperInput msn="Correo" type="E-mail" placeholder="" />
                     <WrapperInput msn="Password" type="password" placeholder="" />
 
-                    <Button type="button" value="Iniciar Sesion"/>
+                    <Button type="button" value="Iniciar Sesion" />
                     <Link className="link" to="/register">Regístrarse</Link>
                 </form>
 

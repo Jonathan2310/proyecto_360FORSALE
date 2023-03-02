@@ -1,0 +1,94 @@
+footer{
+    width: 100%;
+    /* height: 410px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/coverFooter.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(199, 227, 255);
+    margin-top: auto;
+}
+
+footer .grupo_1{
+    width: 100%;
+    max-width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+footer .grupo_1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .grupo_1 .box figure img{
+    width: 300px;
+}
+
+footer .grupo_1 .box .container_links{
+    margin-left: 2rem;
+}
+
+footer .grupo_1 .box .container_links .link{
+    display: block;
+    /* text-decoration: none; */
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #efefef;
+}
+
+footer .grupo_1 .box p{
+    width: 80%;
+    color: #efefef;
+    margin-bottom: 2rem;
+    text-align: justify;
+
+}
+
+footer .grupo_1 .box .red_social a{
+    min-height: min-content;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 1.8rem;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+footer .grupo_1 .box .red_social a:hover{
+    background-color: #1585ad;
+}
+
+footer .grupo_2{
+    padding: 15px 0;
+    margin: 0 2rem;
+    text-align: center;
+    color: rgb(217, 249, 255);
+    border-top: 2px solid white;
+}
+footer .grupo_2 small{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:830px){
+    footer .grupo_1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0;
+    }
+    footer .grupo_1 .box p{
+        width: 100%;
+    
+    }
+    footer .grupo_1 .box .red_social a{
+        margin-right: 1.2rem;
+    }
+}
