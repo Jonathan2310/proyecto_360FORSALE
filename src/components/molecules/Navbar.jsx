@@ -20,7 +20,7 @@ function Navbar() {
                 <div className={`links ${clicked ? 'active' : ''}`} >
                     <a href="#">Publicar Inmuebles</a>
                     <a href="/mispublicacionesArrendador">Mis Inmuebles</a>
-                    <a href="#">Más información</a>
+                    <a href="/masinfoarrendador">Más información</a>
                     <a href="#">Mi perfil</a>
                     <button>Cerrar Sesión</button>
                 </div>
