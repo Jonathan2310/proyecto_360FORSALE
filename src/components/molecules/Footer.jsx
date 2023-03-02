@@ -51,14 +51,5 @@ function Footer() {
 }
 
 
-// const StyledFooter = styled.footer`
-//     width: 100%;
-//     background-image: url(../../assets/img/coverFooter.png);
-//     background-position: center center;
-//     background-repeat: no-repeat;
-//     background-attachment: fixed;
-//     background-size: cover;
-//     background-color: rgb(241, 248, 255);
-// `
 
 export default Footer;
