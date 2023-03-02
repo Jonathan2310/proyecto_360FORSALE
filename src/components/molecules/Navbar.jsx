@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Logo from '../../assets/img/logoSinFondo.png'
 import BurguerButton from "../atoms/BurguerButton";
@@ -18,10 +19,10 @@ function Navbar() {
                 <img src={Logo} alt="Logo de la empresa" />
                 {/* SI cliked es TRUE --> active, si es FALSE no agrega la clase */}
                 <div className={`links ${clicked ? 'active' : ''}`} >
-                    <a href="#">Publicar Inmuebles</a>
-                    <a href="/mispublicacionesArrendador">Mis Inmuebles</a>
-                    <a href="/masinfoarrendador">Más información</a>
-                    <a href="#">Mi perfil</a>
+                    <Link className="link" to="#" href="#">Publicar Inmuebles</Link>
+                    <Link className="link" to="/mispublicacionesArrendador" >Mis Inmuebles</Link>
+                    <Link className="link" to="/masinfoarrendador">Más información</Link>
+                    <Link className="link" to="#" href="#">Mi perfil</Link>
                     <button>Cerrar Sesión</button>
                 </div>
 
@@ -48,7 +49,7 @@ const StyledNavbar = styled.nav`
     img{
         height: 70%;
     }
-    a{
+    .link{
         color: black;
         text-decoration: none;
         margin-right: 4rem;
@@ -73,7 +74,7 @@ const StyledNavbar = styled.nav`
         margin: auto;
         text-align: center;
         transition: all .5s ease;
-        a{
+        .link{
             /* #0080FF */
             color: white;
             font-size: 2rem;
@@ -83,7 +84,7 @@ const StyledNavbar = styled.nav`
         @media(min-width: 1055px) {
             position: initial;
             margin: 0;
-            a{
+            .link{
                 font-size: 1rem;
                 color: black;
                 display: inline;
@@ -99,7 +100,7 @@ const StyledNavbar = styled.nav`
         left: 0;
         right: 0;
         text-align: center;
-        a{
+        .link{
             color: white;
             margin-bottom: 1.5rem;
             margin-right: 0;
