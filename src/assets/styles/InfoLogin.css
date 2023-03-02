@@ -1,0 +1,64 @@
+.cover_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/cover.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(241, 248, 255);
+}
+
+.contenedor_formLanding{
+    position: relative;
+    min-height: 70%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.info_landing{
+    min-height: 100%;
+    width: 90%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo_register{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.info_landing form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_landing .link{
+    padding-top: 30px;
+    font-size: 1rem;
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.info_landing .link:hover{
+    color: rgb(69, 131, 255);
+}

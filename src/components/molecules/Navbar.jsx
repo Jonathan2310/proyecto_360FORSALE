@@ -18,10 +18,10 @@ function Navbar() {
                 <img src={Logo} alt="Logo de la empresa" />
                 {/* SI cliked es TRUE --> active, si es FALSE no agrega la clase */}
                 <div className={`links ${clicked ? 'active' : ''}`} >
-                    <a href="/login">Publicar Inmuebles</a>
-                    <a href="https://www.figma.com/file/13v1ZIuaTuaSRHvLRvSkib/360%C2%B0FORSALE_221193_221202_221218_221215?node-id=133%3A92&t=2bMOJDDGdMRgvzNF-0">Mis Inmuebles</a>
-                    <a href="https://www.google.com.mx/">Más información</a>
-                    <a href="https://www.google.com.mx/">Mi perfil</a>
+                    <a href="#">Publicar Inmuebles</a>
+                    <a href="/mispublicacionesArrendador">Mis Inmuebles</a>
+                    <a href="#">Más información</a>
+                    <a href="#">Mi perfil</a>
                     <button>Cerrar Sesión</button>
                 </div>
 

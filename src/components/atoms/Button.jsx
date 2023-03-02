@@ -13,12 +13,13 @@ const StyledButton = styled.button`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 `;
 
 //Para que este componente sea reutilizable - No se puede llamar igual que el elemento del styled
-function Button({type, value}) {
+function Button({type, value, handlerClick}) {
     return ( 
-        <StyledButton type={type}>{value}</StyledButton>
+        <StyledButton type={type} onClick={handlerClick} >{value}</StyledButton>
      );
 }
 

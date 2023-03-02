@@ -9,6 +9,14 @@ import Logo from '../../assets/img/logoSinFondo.png'
 import '../../assets/styles/formRegister.css'
 
 function FormLogin() {
+
+    const navigate = useNavigate();
+
+    const handlerClick = (e)=> {
+        e.preventDefault();
+        navigate("/homeArrendador");
+    }
+
     return ( 
 
             <div className="form_register">
@@ -18,7 +26,7 @@ function FormLogin() {
                     <WrapperInput msn="Correo" type="E-mail" placeholder="" />
                     <WrapperInput msn="Password" type="password" placeholder="" />
 
-                    <Button type="button" value="Iniciar Sesion" />
+                    <Button type="button" value="Iniciar Sesion" handlerClick={handlerClick} />
                     <Link className="link" to="/register">Regístrarse</Link>
                 </form>
 
