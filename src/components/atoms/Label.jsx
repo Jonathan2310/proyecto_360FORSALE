@@ -11,7 +11,7 @@ const StyledLabel = styled.label`
 function Label( {msn} ) {
     return ( 
         <StyledLabel>{msn}</StyledLabel>
-     );
+    );
 }
 
 export default Label;

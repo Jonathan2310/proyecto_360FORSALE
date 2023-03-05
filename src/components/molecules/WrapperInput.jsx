@@ -8,7 +8,7 @@ function WrapperInput( {msn, type, placeholder} ) {
             <Label msn={msn} ></Label>
             <Input type={type} placeholder={placeholder} />
         </div>
-     );
+    );
 }
 
 export default WrapperInput;

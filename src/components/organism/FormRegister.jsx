@@ -26,7 +26,7 @@ function FormRegister() {
             
         // </div>
         
-     );
+    );
 }
 
 export default FormRegister;

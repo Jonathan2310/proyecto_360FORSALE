@@ -14,7 +14,7 @@ function ContainerHomeArrendador() {
             </div>
         </>
         
-     );
+    );
 }
 
 export default ContainerHomeArrendador;

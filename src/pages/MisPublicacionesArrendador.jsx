@@ -9,7 +9,7 @@ function MisPublicacionesArrendador() {
             <Flexbox/>
             <Footer/>
         </>
-     );
+    );
 }
 
 export default MisPublicacionesArrendador;

@@ -1,15 +1,15 @@
 import Footer from "../components/molecules/Footer";
 import Navbar from "../components/molecules/Navbar";
-import WrapperInfo from "../components/molecules/WrapperInfo";
+import WrapperEditar from "../components/molecules/WrapperEditar";
 
-function InformacionAdicional() {
+function EditarPublicacion() {
     return ( 
         <>
             <Navbar/>
-            <WrapperInfo/>
+            <WrapperEditar/>
             <Footer/>
         </>
     );
 }
 
-export default InformacionAdicional;
+export default EditarPublicacion;

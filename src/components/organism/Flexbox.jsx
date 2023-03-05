@@ -21,7 +21,7 @@ function Flexbox() {
         </>
         
         
-     );
+    );
 }
 
 const StyledFlexbox = styled.div`
